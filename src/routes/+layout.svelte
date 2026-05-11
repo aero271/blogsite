@@ -1,6 +1,5 @@
 <script>
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
 
 	let { children } = $props();
 </script>
@@ -13,7 +12,6 @@
 		href="https://fonts.googleapis.com/css2?family=Cantata+One&family=Lavishly+Yours&family=Monsieur+La+Doulaise&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
 		rel="stylesheet"
 	/>
-	<link rel="icon" href={favicon} />
 </svelte:head>
 
 <div class="roboto-serif flex flex-col items-center ">
