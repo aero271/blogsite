@@ -8,6 +8,8 @@ export async function load({ params }) {
         headers: { 'Authorization': `bearer ${API_KEY}`}
     });
     const article = await response.json();
+    article.data.date = new Date(article.data.publishedAt);
+    console.log(article)
 
     return { article };
 };

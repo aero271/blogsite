@@ -14,7 +14,7 @@
 	/>
 </svelte:head>
 
-<div class="roboto-serif flex flex-col items-center ">
+<div class="roboto-serif flex flex-col items-center w-[99%] ml-2">
 	<navbar class="flex min-h-16 w-full max-w-[1000px] min-w-3/4 items-center">
 		<a href="/" class="lavishly-yours p-10 text-6xl">Jamie's Blog</a>
 	</navbar>
