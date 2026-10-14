@@ -34,3 +34,7 @@
         </a>    
     {/each}
 </main>
+
+<svelte:head>
+    <title>Jamie's Blog</title>
+</svelte:head>

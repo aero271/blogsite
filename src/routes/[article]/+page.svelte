@@ -18,10 +18,10 @@
     ];
 </script>
 
-<div class="w-full max-w-[1000px] min-w-3/4 flex flex-col items-center">
+<div class="w-full max-w-[1000px] min-w-3/4 flex flex-col items-center pl-2 pr-3">
     <h1 class="mt-2 mb-2 text-3xl w-full">{data?.article.data.title}</h1>
     <div class="w-full flex">
-        <p class="italic">by {data?.article.data.author.name}</p>
+        <p class="italic">By {data?.article.data.author.name}</p>
         <p class="ml-auto">{months[data?.article.data.date.getMonth()]} {data?.article.data.date.getDate()}, {data?.article.data.date.getFullYear()}</p>
     </div>
     <p class="h-px w-full bg-black my-4"></p>
@@ -31,3 +31,7 @@
         {/each}
     </div>
 </div>
+
+<svelte:head>
+    <title>{data?.article.data.title} - Jamie's Blog</title>
+</svelte:head>
